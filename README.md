@@ -1,24 +1,14 @@
 <div align="center">
 
-<img src="images/swiggy_banner.png" width="100%">
+<img src="images/swiggy_banner.png" width="900">
 
 # 🍽️ Swiggy Bangalore Data Analysis
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=for-the-badge&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-EDA-green?style=for-the-badge)
+### 📊 Exploratory Data Analysis using Python
 
-### 📊 Data Analysis | EDA | Visualization | Business Insights
+Analyze Swiggy restaurant data to uncover insights about ratings, cuisines, pricing, locations, and customer preferences.
 
 </div>
-
----
-
-## 📌 Project Overview
-
-This project performs Exploratory Data Analysis (EDA) on Swiggy Bangalore restaurant data using Python. The analysis explores restaurant ratings, cuisines, pricing trends, location-wise distribution, and customer preferences through insightful visualizations.
 
 # 📌 Project Overview
 
