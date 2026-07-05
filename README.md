@@ -1,42 +1,61 @@
 <div align="center">
 
-<img src="images/swiggy_banner.png" width="900">
+<img src="images/swiggy-banner.png" width="100%">
 
 # 🍽️ Swiggy Bangalore Data Analysis
 
-### 📊 Exploratory Data Analysis using Python
+### 📊 Exploratory Data Analysis (EDA) using Python
 
-Analyze Swiggy restaurant data to uncover insights about ratings, cuisines, pricing, locations, and customer preferences.
+Analyze restaurant ratings, cuisines, pricing, and locations to uncover valuable business insights from Swiggy Bangalore outlet data.
+
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=for-the-badge&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical-green?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter)
+
+⭐ If you like this project, don't forget to star the repository!
 
 </div>
 
-# 📌 Project Overview
+---
 
-This project performs Exploratory Data Analysis (EDA) on Swiggy Bangalore restaurant data using Python. The objective is to identify customer preferences, popular cuisines, pricing trends, restaurant ratings, and location-wise insights through visualizations.
+# 📖 About the Project
 
-The project demonstrates practical skills in:
+This project focuses on **Exploratory Data Analysis (EDA)** of Swiggy Bangalore restaurant data. It analyzes restaurant ratings, cuisines, locations, and pricing patterns to generate meaningful business insights.
 
-- Data Cleaning
-- Data Analysis
-- Data Visualization
-- Business Insights
-- Exploratory Data Analysis (EDA)
+The objective is to understand customer preferences and restaurant trends using Python-based data analysis techniques.
 
 ---
 
-# 📂 Dataset
+# 🎯 Objectives
 
-Dataset contains restaurant information including:
-
-- Restaurant Name
-- Cuisine
-- Location
-- Rating
-- Cost for Two
+- Analyze restaurant ratings
+- Discover the most popular cuisines
+- Identify premium restaurant locations
+- Compare pricing across restaurants
+- Find affordable restaurants with high ratings
+- Visualize restaurant trends
+- Generate business insights
 
 ---
 
-# 🛠️ Tech Stack
+# 📂 Dataset Information
+
+The dataset contains restaurant information including:
+
+| Feature | Description |
+|----------|-------------|
+| Shop_Name | Restaurant Name |
+| Cuisine | Available Cuisine |
+| Location | Restaurant Location |
+| Rating | Customer Rating |
+| Cost_for_Two | Average Cost for Two |
+
+---
+
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -56,8 +75,10 @@ Swiggy-Data-Analysis/
 │   └── Swiggy Bangalore Outlet Details.csv
 │
 ├── Notebook/
-│   ├── swiggy-analysis.ipynb
-│   └── displot.png
+│   └── swiggy-analysis.ipynb
+│
+├── images/
+│   └── swiggy-banner.png
 │
 ├── README.md
 └── requirements.txt
@@ -65,77 +86,92 @@ Swiggy-Data-Analysis/
 
 ---
 
-# 📊 Analysis Performed
+# 📊 Exploratory Data Analysis
 
-### ✅ Data Cleaning
+The project includes:
 
-- Removed missing values
-- Checked duplicate records
-- Converted data types
-- Cleaned Cost for Two column
-
----
-
-### ✅ Exploratory Data Analysis
-
-- Restaurant Distribution
-- Cuisine Analysis
-- Rating Distribution
-- Cost Analysis
-- Location Analysis
-- Top Rated Restaurants
-- Most Expensive Restaurants
-- Budget Friendly Restaurants
+- Data Cleaning
+- Missing Value Analysis
+- Duplicate Removal
+- Data Type Conversion
+- Statistical Summary
+- Univariate Analysis
+- Bivariate Analysis
+- Business Insights
 
 ---
 
 # 📈 Visualizations
 
-The project includes:
+✔ Rating Distribution
 
-- Bar Charts
-- Count Plots
-- Histograms
-- Box Plots
-- Pie Charts
-- Scatter Plots
-- Distribution Plots
-- Heatmaps
+✔ Cuisine Distribution
+
+✔ Cost Distribution
+
+✔ Restaurant Count by Location
+
+✔ Top Rated Restaurants
+
+✔ Top Expensive Restaurants
+
+✔ Budget Friendly Restaurants
+
+✔ Correlation Heatmap
+
+✔ Histograms
+
+✔ Boxplots
+
+✔ Countplots
+
+✔ Bar Charts
 
 ---
 
-# 📌 Key Insights
+# 💡 Key Business Insights
 
-- Identified highest-rated restaurants.
-- Found the most popular cuisines.
-- Compared restaurant prices across locations.
-- Discovered affordable restaurants with high ratings.
-- Analyzed rating distribution.
-- Identified premium restaurant locations.
+- Identified top-rated restaurants in Bangalore.
+- Found the most popular cuisine categories.
+- Compared restaurant pricing across locations.
+- Identified premium dining locations.
+- Analyzed customer rating trends.
+- Highlighted budget-friendly restaurants with excellent ratings.
 
 ---
 
-# ▶️ How to Run
+# 📚 Python Libraries
 
-### Clone Repository
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+---
+
+# 🚀 How to Run
+
+Clone the repository
 
 ```bash
 git clone https://github.com/Nikhildongare123/Swiggy-Data-Analysis-.git
 ```
 
-### Open Project
+Move into the project folder
 
 ```bash
 cd Swiggy-Data-Analysis-
 ```
 
-### Install Libraries
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Notebook
+Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -149,58 +185,38 @@ Notebook/swiggy-analysis.ipynb
 
 ---
 
-# 📷 Sample Output
-
-Restaurant Analysis
-
-- Ratings Distribution
-- Cuisine Frequency
-- Cost Analysis
-- Top Restaurants
-
----
-
-# 📚 Python Libraries Used
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
-
----
-
-# 🎯 Business Insights
-
-This project helps answer questions like:
-
-- Which locations have the highest-rated restaurants?
-- Which cuisines are most popular?
-- What is the average cost for two?
-- Which restaurants offer the best value for money?
-- Which areas contain premium restaurants?
-
----
-
-# 🚀 Future Improvements
+# 📌 Future Improvements
 
 - SQL Integration
 - Power BI Dashboard
-- Machine Learning
+- Machine Learning Models
 - Restaurant Recommendation System
+- Flask Web Application
 - Streamlit Dashboard
-- Flask Deployment
+- Interactive Visualizations
 
 ---
 
 # 👨‍💻 Author
 
-**Nikhil Dongare**
+## Nikhil Dongare
 
-- GitHub: https://github.com/Nikhildongare123
-- LinkedIn: *(Add your LinkedIn profile here)*
+💼 Aspiring Data Scientist | Machine Learning Engineer
+
+**GitHub**
+
+https://github.com/Nikhildongare123
+
+**LinkedIn**
+
+(Add your LinkedIn profile here)
 
 ---
 
-# ⭐ If you found this project useful, please give it a Star!
+<div align="center">
+
+### ⭐ If you found this project helpful, please give it a Star ⭐
+
+Made with ❤️ by **Nikhil Dongare**
+
+</div>
