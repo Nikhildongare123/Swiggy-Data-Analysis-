@@ -1,15 +1,4 @@
 # Swiggy Data Analysis Project 🎁
-
-<p align="center">
-
-  ![Made With Python](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/made-with-python.svg) <br>
-  ![Juputer Notebook](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/jupyter-notebook.svg)
-  ![Numpy](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/numpy.svg)
-  ![plotly](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/plotly.svg)
-  ![Pandas](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/pandas.svg)
-  ![Seaborn](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/seaborn.svg)
-  ![Miniconda](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/mini-conda.svg)
-  
 </p>  
 
 <p align="center">
