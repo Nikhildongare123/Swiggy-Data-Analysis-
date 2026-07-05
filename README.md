@@ -1,6 +1,5 @@
+<img src="images/swiggy_banner.png" width="900"
 # 🍽️ Swiggy Bangalore Data Analysis
-
-<div align="center">
 
 # 📊 Swiggy Bangalore Data Analysis using Python
 
